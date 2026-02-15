@@ -33,7 +33,7 @@ export function ContactSection() {
                 <input
                   type="text"
                   id="name"
-                  className="w-full px-4 py-3 bg-[#112240] border border-[#00bcd4]/20 rounded-lg text-white focus:border-[#00bcd4] focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 bg-[#112240] border border-[#de1352]/20 rounded-lg text-white focus:border-[#de1352] focus:outline-none transition-colors"
                   placeholder="John Doe"
                   required
                 />
@@ -44,7 +44,7 @@ export function ContactSection() {
                 <input
                   type="email"
                   id="email"
-                  className="w-full px-4 py-3 bg-[#112240] border border-[#00bcd4]/20 rounded-lg text-white focus:border-[#00bcd4] focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 bg-[#112240] border border-[#de1352]/20 rounded-lg text-white focus:border-[#de1352] focus:outline-none transition-colors"
                   placeholder="john@example.com"
                   required
                 />
@@ -55,7 +55,7 @@ export function ContactSection() {
                 <input
                   type="tel"
                   id="phone"
-                  className="w-full px-4 py-3 bg-[#112240] border border-[#00bcd4]/20 rounded-lg text-white focus:border-[#00bcd4] focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 bg-[#112240] border border-[#de1352]/20 rounded-lg text-white focus:border-[#de1352] focus:outline-none transition-colors"
                   placeholder="+353 1 234 5678"
                 />
               </div>
@@ -65,7 +65,7 @@ export function ContactSection() {
                 <textarea
                   id="message"
                   rows={4}
-                  className="w-full px-4 py-3 bg-[#112240] border border-[#00bcd4]/20 rounded-lg text-white focus:border-[#00bcd4] focus:outline-none transition-colors resize-none"
+                  className="w-full px-4 py-3 bg-[#112240] border border-[#de1352]/20 rounded-lg text-white focus:border-[#de1352] focus:outline-none transition-colors resize-none"
                   placeholder="How can we help you?"
                   required
                 />
@@ -75,7 +75,7 @@ export function ContactSection() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 type="submit"
-                className="w-full py-3 bg-[#00bcd4] hover:bg-[#00acc1] text-[#0a192f] font-semibold rounded-lg transition-all duration-300"
+                className="w-full py-3 bg-[#de1352] hover:bg-[#00acc1] text-[#0a192f] font-semibold rounded-lg transition-all duration-300"
               >
                 Send Message
               </motion.button>
@@ -90,7 +90,7 @@ export function ContactSection() {
             transition={{ duration: 0.6 }}
             className="space-y-8"
           >
-            <div className="bg-[#112240]/50 rounded-lg p-6 border border-[#00bcd4]/20">
+            <div className="bg-[#112240]/50 rounded-lg p-6 border border-[#de1352]/20">
               <h3 className="text-xl font-semibold text-white mb-3">Address</h3>
               <p className="text-[#8892b0]">
                 123 Main Street<br />
@@ -99,7 +99,7 @@ export function ContactSection() {
               </p>
             </div>
 
-            <div className="bg-[#112240]/50 rounded-lg p-6 border border-[#00bcd4]/20">
+            <div className="bg-[#112240]/50 rounded-lg p-6 border border-[#de1352]/20">
               <h3 className="text-xl font-semibold text-white mb-3">Opening Hours</h3>
               <p className="text-[#8892b0]">
                 Monday - Friday: 9am - 6pm<br />
@@ -108,7 +108,7 @@ export function ContactSection() {
               </p>
             </div>
 
-            <div className="bg-[#112240]/50 rounded-lg p-6 border border-[#00bcd4]/20">
+            <div className="bg-[#112240]/50 rounded-lg p-6 border border-[#de1352]/20">
               <h3 className="text-xl font-semibold text-white mb-3">Contact Details</h3>
               <p className="text-[#8892b0]">
                 Phone: +353 1 234 5678<br />

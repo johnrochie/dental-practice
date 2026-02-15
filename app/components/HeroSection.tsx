@@ -46,7 +46,7 @@ export function HeroSection() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                className="px-8 py-4 bg-[#00bcd4] hover:bg-[#00acc1] text-[#0a192f] font-semibold rounded-lg transition-all duration-300 shadow-lg shadow-[#00bcd4]/40"
+                className="px-8 py-4 bg-[#de1352] hover:bg-[#00acc1] text-[#0a192f] font-semibold rounded-lg transition-all duration-300 shadow-lg shadow-[#de1352]/40"
               >
                 Book Appointment
               </motion.button>
@@ -54,7 +54,7 @@ export function HeroSection() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-                className="px-8 py-4 border-2 border-[#00bcd4] text-[#00bcd4] hover:bg-[#00bcd4] hover:text-[#0a192f] font-semibold rounded-lg transition-all duration-300"
+                className="px-8 py-4 border-2 border-[#de1352] text-[#de1352] hover:bg-[#de1352] hover:text-[#0a192f] font-semibold rounded-lg transition-all duration-300"
               >
                 Our Services
               </motion.button>
@@ -73,7 +73,7 @@ export function HeroSection() {
               <span className="text-3xl">🎉</span>
               <div>
                 <p className="text-white font-semibold">New Patients Special</p>
-                <p className="text-[#00bcd4] text-2xl font-bold">20% OFF</p>
+                <p className="text-[#de1352] text-2xl font-bold">20% OFF</p>
               </div>
             </div>
             <p className="text-[#ccd6f6] text-sm mb-4">
@@ -83,7 +83,7 @@ export function HeroSection() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-              className="mt-2 w-full py-2 bg-[#00bcd4] hover:bg-[#00acc1] text-[#0a192f] font-semibold rounded-lg transition-all duration-300"
+              className="mt-2 w-full py-2 bg-[#de1352] hover:bg-[#00acc1] text-[#0a192f] font-semibold rounded-lg transition-all duration-300"
             >
               Claim Offer
             </motion.button>

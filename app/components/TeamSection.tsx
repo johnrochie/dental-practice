@@ -62,7 +62,7 @@ export function TeamSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-[#112240] rounded-lg overflow-hidden shadow-lg border border-[#00bcd4]/20"
+              className="bg-[#112240] rounded-lg overflow-hidden shadow-lg border border-[#de1352]/20"
             >
               <div className="relative h-64">
                 <Image
@@ -75,7 +75,7 @@ export function TeamSection() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-white mb-2">{member.name}</h3>
-                <p className="text-[#00bcd4] font-medium mb-3">{member.role}</p>
+                <p className="text-[#de1352] font-medium mb-3">{member.role}</p>
                 <p className="text-[#8892b0] text-sm">{member.description}</p>
               </div>
             </motion.div>

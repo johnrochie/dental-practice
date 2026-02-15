@@ -57,11 +57,11 @@ export function TestimonialsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-[#112240]/50 rounded-lg p-6 border border-[#00bcd4]/10 hover:border-[#00bcd4]/30 transition-all duration-300"
+              className="bg-[#112240]/50 rounded-lg p-6 border border-[#de1352]/10 hover:border-[#de1352]/30 transition-all duration-300"
             >
               <div className="flex items-center gap-1 mb-3">
                 {[...Array(testimonial.rating)].map((_, i) => (
-                  <span key={i} className="text-[#00bcd4]">★</span>
+                  <span key={i} className="text-[#de1352]">★</span>
                 ))}
               </div>
               <p className="text-[#ccd6f6] mb-4 italic">\"{testimonial.comment}\"</p>

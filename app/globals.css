@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0f0f0f;
+  --foreground: #e6f1ff;
+  --primary: #00bcd4;
+  --primary-hover: #00acc1;
+  --accent: #0a192f;
+  --card-bg: rgba(17, 17, 17, 0.5);
+  --glass: rgba(255, 255, 255, 0.06);
+  --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  margin: 0;
+}
+
+.bg-gradient-to-b {
+  background: linear-gradient(to bottom, var(--background) 80%, transparent 100%);
+}
+
+.text-transparent {
+  color: transparent;
+}
+
+.bg-tilt {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 50%, var(--primary) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-clip-text {
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}

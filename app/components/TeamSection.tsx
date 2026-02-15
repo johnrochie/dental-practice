@@ -33,7 +33,7 @@ const teamMembers: TeamMember[] = [
 
 export function TeamSection() {
   return (
-    <section className="py-20 bg-[#0a192f]">
+    <section className="py-20 bg-[#1e293b]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -45,7 +45,7 @@ export function TeamSection() {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Meet Our Team
           </h2>
-          <p className="text-[#8892b0] text-lg">Experienced dental professionals dedicated to your care</p>
+          <p className="text-[#64748b] text-lg">Experienced dental professionals dedicated to your care</p>
         </motion.div>
 
         <motion.div
@@ -62,7 +62,7 @@ export function TeamSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-[#112240] rounded-lg overflow-hidden shadow-lg border border-[#de1352]/20"
+              className="bg-[#1e293b] rounded-lg overflow-hidden shadow-lg border border-[#0891b2]/20"
             >
               <div className="relative h-64">
                 <Image
@@ -75,8 +75,8 @@ export function TeamSection() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-white mb-2">{member.name}</h3>
-                <p className="text-[#de1352] font-medium mb-3">{member.role}</p>
-                <p className="text-[#8892b0] text-sm">{member.description}</p>
+                <p className="text-[#0891b2] font-medium mb-3">{member.role}</p>
+                <p className="text-[#64748b] text-sm">{member.description}</p>
               </div>
             </motion.div>
           ))}

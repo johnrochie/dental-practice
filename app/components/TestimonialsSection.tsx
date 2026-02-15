@@ -28,7 +28,7 @@ const testimonials: Testimonial[] = [
 
 export function TestimonialsSection() {
   return (
-    <section className="py-20 bg-[#0f0f0f]">
+    <section className="py-20 bg-[#0f172a]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -40,7 +40,7 @@ export function TestimonialsSection() {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             What Our Patients Say
           </h2>
-          <p className="text-[#8892b0] text-lg">Real stories from our satisfied patients</p>
+          <p className="text-[#64748b] text-lg">Real stories from our satisfied patients</p>
         </motion.div>
 
         <motion.div
@@ -57,14 +57,14 @@ export function TestimonialsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-[#112240]/50 rounded-lg p-6 border border-[#de1352]/10 hover:border-[#de1352]/30 transition-all duration-300"
+              className="bg-[#1e293b]/50 rounded-lg p-6 border border-[#0891b2]/10 hover:border-[#0891b2]/30 transition-all duration-300"
             >
               <div className="flex items-center gap-1 mb-3">
                 {[...Array(testimonial.rating)].map((_, i) => (
-                  <span key={i} className="text-[#de1352]">★</span>
+                  <span key={i} className="text-[#0891b2]">★</span>
                 ))}
               </div>
-              <p className="text-[#ccd6f6] mb-4 italic">\"{testimonial.comment}\"</p>
+              <p className="text-[#cbd5e1] mb-4 italic">\"{testimonial.comment}\"</p>
               <p className="text-white font-semibold">{testimonial.name}</p>
             </motion.div>
           ))}
